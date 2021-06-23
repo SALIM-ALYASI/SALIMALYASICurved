@@ -38,8 +38,6 @@ s.description      = <<-DESC
 # }
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
-# s.frameworks = 'UIKit', 'MapKit'
-# s.dependency 'AFNetworking', '~> 2.3'
-s.dependency = 'AFNetworking', '~> 2.3.0'
+ s.frameworks = 'UIKit', 'MapKit' 
 end
 
