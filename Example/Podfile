@@ -4,7 +4,6 @@ platform :ios, '12.1'
 
 target 'SALIMALYASICurved_Example' do
   pod 'SALIMALYASICurved', :path => '../'
-  pod 'AFNetworking', '~> 2.3.0'
   target 'SALIMALYASICurved_Tests' do
     inherit! :search_paths
 
