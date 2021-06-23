@@ -7,7 +7,7 @@
 #
  Pod::Spec.new do |s|
     s.name             = 'SALIMALYASICurved'
-    s.version          = '0.1.1'
+    s.version          = '0.1.0'
     s.summary          = 'DScrollView is UIScrollView in one line of code.'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -40,6 +40,6 @@ s.description      = <<-DESC
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
 # s.dependency 'AFNetworking', '~> 2.3'
-s.dependency 'SALIMALYASICurved', '~> 0.1.0'
+s.dependency 'SALIMALYASICurved', '~> 0.1.2'
 end
 
