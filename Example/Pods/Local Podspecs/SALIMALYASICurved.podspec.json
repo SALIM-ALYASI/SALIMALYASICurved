@@ -1,0 +1,22 @@
+{
+  "name": "SALIMALYASICurved",
+  "version": "0.1.0",
+  "summary": "A short description of SALIMALYASICurved.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/الياسي والأمل/SALIMALYASICurved",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "الياسي والأمل": "r.m.alyasi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/الياسي والأمل/SALIMALYASICurved.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SALIMALYASICurved/Classes/**/*"
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SALIMALYASICurved_Example' do
+  pod 'SALIMALYASICurved', :path => '../'
+
+  target 'SALIMALYASICurved_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
