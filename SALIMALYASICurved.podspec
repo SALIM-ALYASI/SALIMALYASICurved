@@ -41,6 +41,6 @@ s.description      = <<-DESC
 # s.frameworks = 'UIKit', 'MapKit'
 # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.dependency 'SALIMALYASI', '~> 4.0.0'
+  s.dependency 'SALIMALYASI', '~> 0.0.1'
 end
 
