@@ -437,6 +437,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.1;
 				MODULEMAP_FILE = "Target Support Files/Pods-SALIMALYASICurved_Tests/Pods-SALIMALYASICurved_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -536,6 +537,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				MODULEMAP_FILE = "Target Support Files/SALIMALYASICurved/SALIMALYASICurved.modulemap";
 				PRODUCT_MODULE_NAME = SALIMALYASICurved;
 				PRODUCT_NAME = SALIMALYASICurved;
@@ -569,6 +571,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.1;
 				MODULEMAP_FILE = "Target Support Files/Pods-SALIMALYASICurved_Tests/Pods-SALIMALYASICurved_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -601,6 +604,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				MODULEMAP_FILE = "Target Support Files/SALIMALYASICurved/SALIMALYASICurved.modulemap";
 				PRODUCT_MODULE_NAME = SALIMALYASICurved;
 				PRODUCT_NAME = SALIMALYASICurved;
@@ -634,6 +638,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.1;
 				MODULEMAP_FILE = "Target Support Files/Pods-SALIMALYASICurved_Example/Pods-SALIMALYASICurved_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -731,6 +736,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.1;
 				MODULEMAP_FILE = "Target Support Files/Pods-SALIMALYASICurved_Example/Pods-SALIMALYASICurved_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";

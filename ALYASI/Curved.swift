@@ -20,14 +20,23 @@ open class ButtonArched: UIButton {
         public var ColorRadius: Int = 1 {
             didSet {
                 self.layer.shadowRadius = CGFloat(self.ColorRadius)
-                self.layer.shadowColor = UIColor.black.cgColor
-                self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
-                self.layer.shadowColor = UIColor.black.cgColor
-                self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
-                self.layer.shadowOpacity = 5
-
+              
+                 
             }
         }
+        @IBInspectable
+            public var Color : UIColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1) {
+                didSet {
+                 
+                    self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
+                     
+                    self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
+                    self.layer.shadowOpacity = 5
+                    self.layer.shadowColor = Color.cgColor
+                    self.layer.shadowColor = Color.cgColor
+    
+                }
+            }
 public override init(frame: CGRect) {
         super.init(frame: frame)
         setTitle("MyTitle", for: .normal)
@@ -49,14 +58,23 @@ open class ArchedView: UIView {
         public var ColorRadius: Int = 1 {
             didSet {
                 self.layer.shadowRadius = CGFloat(self.ColorRadius)
-                self.layer.shadowColor = UIColor.black.cgColor
-                self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
-                self.layer.shadowColor = UIColor.black.cgColor
-                self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
-                self.layer.shadowOpacity = 5
+              
                  
             }
         }
+        @IBInspectable
+            public var Color : UIColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1) {
+                didSet {
+                 
+                    self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
+                     
+                    self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
+                    self.layer.shadowOpacity = 5
+                    self.layer.shadowColor = Color.cgColor
+                    self.layer.shadowColor = Color.cgColor
+    
+                }
+            }
 public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -73,14 +91,23 @@ open class ArchedImag: UIImageView {
         public var ColorRadius: Int = 1 {
             didSet {
                 self.layer.shadowRadius = CGFloat(self.ColorRadius)
-                self.layer.shadowColor = UIColor.black.cgColor
-                self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
-                self.layer.shadowColor = UIColor.black.cgColor
-                self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
-                self.layer.shadowOpacity = 5
+              
                  
             }
         }
+        @IBInspectable
+            public var Color : UIColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1) {
+                didSet {
+                 
+                    self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
+                     
+                    self.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
+                    self.layer.shadowOpacity = 5
+                    self.layer.shadowColor = Color.cgColor
+                    self.layer.shadowColor = Color.cgColor
+    
+                }
+            }
 public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
